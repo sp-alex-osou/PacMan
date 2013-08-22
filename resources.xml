@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resources>
+	<sprite name="PacMan">
+		<image file="Resources/Sprites/pacman.png">
+			<grid pos="0,0" size="32,32" array="12,1" />
+		</image>
+	</sprite>
+	<sprite name="Shadow">
+		<image file="Resources/Sprites/monster.png">
+			<grid pos="0,0" size="32,32" array="2,1" />
+		</image>
+	</sprite>
+	<sprite name="Speedy">
+		<image file="Resources/Sprites/monster.png">
+			<grid pos="64,0" size="32,32" array="2,1" />
+		</image>
+	</sprite>
+	<sprite name="Bashful">
+		<image file="Resources/Sprites/monster.png">
+			<grid pos="128,0" size="32,32" array="2,1" />
+		</image>
+	</sprite>
+	<sprite name="Pokey">
+		<image file="Resources/Sprites/monster.png">
+			<grid pos="192,0" size="32,32" array="2,1" />
+		</image>
+	</sprite>
+	<sprite name="Eyes">
+		<image file="Resources/Sprites/eyes.png">
+			<grid pos="0,0" size="32,32" array="4,1" />
+		</image>	
+	</sprite>
+
+	<texture name="outerWallTop" file="resources/tiles/outerwall_top.png"/>
+	<texture name="outerWallRight" file="resources/tiles/outerwall_right.png"/>
+	<texture name="outerWallBottom" file="resources/tiles/outerwall_bottom.png" />
+	<texture name="outerWallLeft" file="resources/tiles/outerwall_left.png" />
+	<texture name="outerCornerTopLeft" file="resources/tiles/outercorner_top_left.png" />
+	<texture name="outerCornerTopRight" file="resources/tiles/outercorner_top_right.png" />
+	<texture name="outerCornerBottomRight" file="resources/tiles/outercorner_bottom_right.png" />
+	<texture name="outerCornerBottomLeft" file="resources/tiles/outercorner_bottom_left.png" />
+	<texture name="outerCornerNarrowTopLeft" file="resources/tiles/outercorner_narrow_top_left.png" />
+	<texture name="outerCornerNarrowTopRight" file="resources/tiles/outercorner_narrow_top_right.png" />
+	<texture name="outerCornerNarrowBottomRight" file="resources/tiles/outercorner_narrow_bottom_right.png" />
+	<texture name="outerCornerNarrowBottomLeft" file="resources/tiles/outercorner_narrow_bottom_left.png" />
+	<texture name="gateLeft" file="resources/tiles/gate_left.png" />
+	<texture name="gateRight" file="resources/tiles/gate_right.png" />
+	<texture name="door" file="resources/tiles/door.png" />
+	
+	<texture name="wallTop" file="resources/tiles/wall_top.png" />
+	<texture name="wallRight" file="resources/tiles/wall_right.png" />
+	<texture name="wallBottom" file="resources/tiles/wall_bottom.png" />
+	<texture name="wallLeft" file="resources/tiles/wall_left.png" />
+	<texture name="cornerTopLeft" file="resources/tiles/corner_top_left.png" />
+	<texture name="cornerTopRight" file="resources/tiles/corner_top_right.png" />
+	<texture name="cornerBottomRight" file="resources/tiles/corner_bottom_right.png" />
+	<texture name="cornerBottomLeft" file="resources/tiles/corner_bottom_left.png" />
+	
+	<texture name="outerNoseTopLeft" file="resources/tiles/outernose_top_left.png" />
+	<texture name="outerNoseTopRight" file="resources/tiles/outernose_top_right.png" />
+	<texture name="outerNoseRightTop" file="resources/tiles/outernose_right_top.png" />
+	<texture name="outerNoseRightBottom" file="resources/tiles/outernose_right_bottom.png" />
+	<texture name="outerNoseBottomLeft" file="resources/tiles/outernose_bottom_left.png" />
+	<texture name="outerNoseBottomRight" file="resources/tiles/outernose_bottom_right.png" />
+	<texture name="outerNoseLeftTop" file="resources/tiles/outernose_left_top.png" />
+	<texture name="outerNoseLeftBottom" file="resources/tiles/outernose_left_bottom.png" />
+	
+	<texture name="dot" file="resources/tiles/dot.png" />
+	<texture name="bigDot" file="resources/tiles/big_dot.png" />
+</resources>
